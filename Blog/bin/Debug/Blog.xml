@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Blog</name>
+    </assembly>
+    <members>
+        <member name="M:Blog.Controllers.ArticleController.getTags">
+            <summary>
+            获取所有文章标签
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.BloggerController.getBlogs">
+            <summary>
+            获取所有博客
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.BloggerController.getBlog(System.Int32)">
+            <summary>
+            根据作者id获取博客
+            </summary>
+            <param name="a_uid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.BloggerController.postByUid(System.Int32,Blog.Models.Blog)">
+            <summary>
+            根据作者id添加博客
+            </summary>
+            <param name="a_uid"></param>
+            <param name="blog"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.BloggerController.getByAid(System.Int32)">
+            <summary>
+            根据博客id获取博客
+            </summary>
+            <param name="a_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.BloggerController.deleteBlog(System.Int32)">
+            <summary>
+            根据博客id删除博客
+            </summary>
+            <param name="a_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.BloggerController.editBlog(System.Int32,Blog.Models.Blog)">
+            <summary>
+            根据博客id修改博客内容
+            </summary>
+            <param name="a_id"></param>
+            <param name="blog"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.BloggerController.getRemark(System.Int32)">
+            <summary>
+            根据博客id获取博客所有评论
+            </summary>
+            <param name="p_aid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.SysController.getUsers">
+            <summary>
+            获取所有用户信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.SysController.getUsers(System.Int32)">
+            <summary>
+            根据用户id获取用户信息
+            </summary>
+            <param name="u_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.SysController.deleteUser(System.Int32)">
+            <summary>
+            根据用户id删除用户
+            </summary>
+            <param name="u_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.SysController.postUser(Blog.Models.User)">
+            <summary>
+            创建用户
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.SysController.putUser(System.Int32,Blog.Models.User)">
+            <summary>
+            根据id修改指定id的用户信息
+            </summary>
+            <param name="u_id"></param>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.VisterController.getRemarks">
+            <summary>
+            获取所有评论
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.VisterController.putUser(System.Int32,Blog.Models.User)">
+            <summary>
+            根据id修改访客个人信息
+            </summary>
+            <param name="u_id"></param>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.VisterController.remarkByAid(System.Int32,Blog.Models.Breview)">
+            <summary>
+            根据博客id添加评论
+            </summary>
+            <param name="p_aid"></param>
+            <param name="bw"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Blog.Controllers.VisterController.getUsers">
+            <summary>
+            获得所有博主的信息
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
